@@ -2,8 +2,8 @@
 #Don't use: sum()
 
 numbers=[10, 20, 30, 40, 50]
-sum=0
+total=0
 for i in numbers:
-    sum+=i
+    total+=i
 
-print("Sum=",sum)
+print("Sum=",total)
