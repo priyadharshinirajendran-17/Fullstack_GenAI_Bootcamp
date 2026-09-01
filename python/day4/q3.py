@@ -1,3 +1,6 @@
+#Problem 3 - Create: def find_largest(a, b, c): Return the largest number.
+#Don't use max().
+
 def find_largest(a, b, c):
     if a>=b and a>=c:
         return a

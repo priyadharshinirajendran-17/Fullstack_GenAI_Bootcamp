@@ -1,3 +1,7 @@
+#Problem 5 — Create: def analyze_string(text): The function should return:
+# Number of characters Number of vowels Number of consonants
+#For: "Python" Expected: Characters: 6 Vowels: 1 Consonants: 5
+
 def analyze_string(text):
     charecter=len(text)
     vowel =0 
