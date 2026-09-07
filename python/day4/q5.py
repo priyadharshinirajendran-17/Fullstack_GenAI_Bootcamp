@@ -5,14 +5,14 @@
 def analyze_string(text):
     charecter=len(text)
     vowel =0 
-    consonent=0
+    consonant=0
 
     for ch in text:
         if ch.lower() in "aeiou":
             vowel+=1
         elif ch.isalpha():
-            consonent+= 1
-    return charecter, vowel, consonent
+            consonant+= 1
+    return charecter, vowel, consonant
 
 result= analyze_string("Python")
 print("Characters =",result[0])
